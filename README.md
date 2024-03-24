@@ -65,6 +65,12 @@ payload = {
 /cart - GET
 token
 
+
+Docker Commands - 
+
+1. docker build -t grocery .
+2. docker run -p 8080:8080 grocery
+
 /place-order - POST
 token,
 payload = {
